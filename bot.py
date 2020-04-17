@@ -1,6 +1,6 @@
 from selenium import webdriver
 from time import sleep
-from secrets import pw 																																					# Save password in seperate file named secrets.py with variable pw = 'password'
+from secrets import pw 																			# Save password in seperate file named secrets.py with variable pw = 'password'
 
 class InstaBot:
     def __init__(self, username, pw):
